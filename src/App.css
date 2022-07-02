@@ -18,6 +18,7 @@ body {
     align-items: center;
     padding: 10px;
     padding-left: 20px;
+    padding-right: 20px;
 }
 
 .logo {
@@ -41,10 +42,15 @@ body {
     padding-right: 3px;
 }
 
+.header .links {
+   display: flex;
+   width: 220px;
+   justify-content: space-between;
+   align-items: center; 
+}
 
 .header .links * {
     font-size: 2.6rem;
-    padding-right: 30px;
 }
 
 .hero {
