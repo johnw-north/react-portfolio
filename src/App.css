@@ -145,3 +145,18 @@ body {
     color: #52ffc5;
     margin-bottom: 10px;
 }
+
+.projects {
+    background-color: #52ffc5;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.projects h1 {
+    font-family: 'Pacifico', cursive;
+    font-size: 5rem;
+    color: #0b1e24;
+}
