@@ -21,7 +21,7 @@ body {
     padding-right: 20px;
 }
 
-.logo {
+.header__logo {
     font-weight: 600;
     font-size: 3rem;
     color: #52ffc5;
@@ -42,14 +42,14 @@ body {
     padding-right: 3px;
 }
 
-.header .links {
+.header__links {
    display: flex;
    width: 220px;
    justify-content: space-between;
    align-items: center; 
 }
 
-.header .links * {
+.header__links * {
     font-size: 2.6rem;
 }
 
@@ -65,20 +65,20 @@ body {
     padding-left: 40px;
 }
 
-.hero .container {
+.hero__container {
     display: flex;
     flex-direction: column;
     align-items: flex-end;
     padding-right: 20px;
 }
 
-.hero .name {
+.hero__name {
     font-family: 'Osworld', sans-serif;
     font-weight: 600;
     font-size: 5rem;
 }
 
-.hero .job {
+.hero__job {
     color: #52ffc5;
     font-size: 1.7rem;
 }
@@ -90,7 +90,7 @@ body {
     align-items: top;    
 }
 
-.about .skills {
+.about__skills {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -103,7 +103,7 @@ body {
     border-radius: 9px;
 }
 
-.about .skills .title {
+.skills__title {
     font-family: 'Finlandica', sans-serif;
     font-size: 2rem;
     font-weight: 600;
@@ -111,15 +111,15 @@ body {
     margin-bottom: 10px;
 }
 
-.about .list {
+.skills__list {
     display: flex;
 }
 
-.about .list ul {
+.skills__list ul {
     list-style: none;
 }
 
-.about .list ul li::before {
+.skills__list ul li::before {
     content: "\2022";
     color: #52ffc5;
     font-weight: 900;
@@ -128,7 +128,7 @@ body {
     margin-left: -1em;
 }
 
-.about .bio {
+.about__bio {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -138,7 +138,7 @@ body {
     border-radius: 9px;
 }
 
-.about .bio .title {
+.bio__title {
     font-family: 'Finlandica', sans-serif;
     font-size: 2rem;
     font-weight: 600;
@@ -155,8 +155,18 @@ body {
     align-items: center;
 }
 
-.projects h1 {
+.projects__title {
     font-family: 'Pacifico', cursive;
     font-size: 5rem;
     color: #0b1e24;
+}
+
+.projects__container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card h1{
+    color: #0b1e24
 }
