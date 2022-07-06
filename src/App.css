@@ -19,6 +19,7 @@ body {
     padding: 10px;
     padding-left: 20px;
     padding-right: 20px;
+    margin-bottom: 40px;
 }
 
 .header__logo {
@@ -58,6 +59,7 @@ body {
     justify-content: space-between;
     align-items: center;
     padding-top: 20px;
+    margin-bottom: 40px;
 }
 
 .hero img {
@@ -87,7 +89,8 @@ body {
     display: flex;
     padding: 20px;
     justify-content: center;
-    align-items: top;    
+    align-items: top; 
+    margin-bottom: 40px;   
 }
 
 .about__skills {
@@ -201,12 +204,47 @@ body {
     font-weight: 600;
 }
 
+.card__links {
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+
+.card__links * {
+    margin: 10px;
+    font-size: 2rem;  
+}
+
 .footer {
     display: flex;
     flex-direction: column;
-    justify-content:end;
+    justify-content:center;
     align-items: center;
     padding: 15px;
+}
+
+.footer__up {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 6px;
+    margin-bottom: 15px;
+    background-color: #52ffc5;
+    border-radius: 7px;
+}
+
+.footer__up i {
+    margin-bottom: 5px;
+    font-size: 2rem;
+    color: #0F2830;
+}
+
+.footer__up h1 {
+    font-family: 'Osworld', sans-serif;
+    font-size: 1.3rem;
+    font-weight: 600;
+    color: #0F2830;
 }
 
 .footer__links {
@@ -215,3 +253,56 @@ body {
     align-items: center;
     width: 220px;
 }
+
+.footer__links * {
+    font-size: 2rem;
+}
+
+.btn--cv {
+    background: none;
+	color: inherit;
+	border: none;
+	padding: 0;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
+}
+
+.btn--email {
+    background: none;
+	color: inherit;
+	border: none;
+	padding: 0;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
+}
+
+.tooltip {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .tooltip .tooltiptext {
+    visibility: hidden;
+    font-size: .7rem;
+    font-weight: 800;
+    width: 70px;
+    background-color: #52ffc5;
+    color: #0b1e24;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px;
+    position: absolute;
+    z-index: 1;
+    bottom: 25%;
+    left: 50%;
+    margin-left: -37px;
+    opacity: 0;
+    transition: opacity 0.3s;
+  }
+  
+  .tooltip:hover .tooltiptext {
+    visibility: visible;
+    opacity: 1;
+  }
