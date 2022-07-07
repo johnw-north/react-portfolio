@@ -238,6 +238,9 @@ body {
     margin-bottom: 15px;
     background-color: #52ffc5;
     border-radius: 7px;
+	border: none;
+	cursor: pointer;
+	outline: inherit;
 }
 
 .footer__up i {

@@ -5,13 +5,18 @@ function Footer() {
   function copyEmail() {
     navigator.clipboard.writeText("johnpaulv8@gmail.com");
   }
-    
+  
+  function toTop() {
+    document.body.scrollTop = 0; // For Safari
+    document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+  }
+
   return (
       <div className="footer">
-        <div className="footer__up">
+        <button className="footer__up" onClick={toTop}>
           <i class="fa-solid fa-circle-up"></i>
           <h1>BACK TO TOP</h1>
-        </div>
+        </button>
         <nav className="footer__links" >
           <a href="https://github.com/johnw-north">
             <i className="fa-brands fa-github-square"></i>
