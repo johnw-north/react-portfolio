@@ -1,11 +1,12 @@
-// const btnEmail = document.querySelector('.btn--email')
-
-// btnEmail.addEventListener('click', () => {
-//     navigator.clipboard.writeText("johnpaulv8@gmail.com")
-// })
+import PDF from '../images/CV - John Warren.pdf';
 
 function Footer() {  
-    return (
+  
+  function copyEmail() {
+    navigator.clipboard.writeText("johnpaulv8@gmail.com");
+  }
+    
+  return (
       <div className="footer">
         <div className="footer__up">
           <i class="fa-solid fa-circle-up"></i>
@@ -19,13 +20,13 @@ function Footer() {
             <i className="fa-brands fa-linkedin"></i>
           </a>          
           <div className="tooltip">
-            <button className="btn--cv">
+            <a href={PDF} download>
               <span class="tooltiptext" id="myTooltip">Open CV</span>
               <i class="fa-solid fa-address-card"></i>
-            </button>
+            </a>
           </div>
           <div className="tooltip">
-            <button className="btn--email">
+            <button className="btn--email" onClick={copyEmail}>
               <span class="tooltiptext" id="myTooltip">Copy email</span>
               <i className="fa-solid fa-at"></i>
             </button>
