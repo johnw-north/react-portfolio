@@ -13,8 +13,6 @@ function About() {
               <li>React</li>
             </ul>
             <ul>
-              <li>JAVA</li>
-              <li>SQL</li>
               <li>Git</li>
               <li>API</li>
             </ul>
