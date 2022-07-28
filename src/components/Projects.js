@@ -1,6 +1,5 @@
 import Card from "./Card";
 import PetrolPal from "../images/PetrolPal.png"
-import profilePic from '../images/pill.png';
 
 function Projects() {
     return (
@@ -10,17 +9,10 @@ function Projects() {
           <Card 
             title="Petrol Pal"
             image={PetrolPal}
-            description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+            description="An app to calculate the fuel cost of a journey, for a user's car. Made with React and utilises GoogleMaps API for location requests. Additionally,  an implemented card system to allow multiple journey calculations."
             github="https://github.com/johnw-north/petrol-pal"
             website="https://johnw-north.github.io/petrol-pal/"
             />
-          <Card 
-            title="WIP"
-            image={profilePic}
-            description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
-            github=""
-            website=""
-          />
         </div>
       </div>
     );
