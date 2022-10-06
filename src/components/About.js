@@ -14,14 +14,16 @@ function About() {
             </ul>
             <ul>
               <li>Git</li>
-              <li>API</li>
+              <li>Rest API</li>
+              <li>SQL</li>
+              <li>Linux</li>
             </ul>
           </div>
         </div>
         <div className="about__bio">
           <h1 className="bio__title">ABOUT ME</h1>
           <p>
-            I have been programming for 2 years, starting in the virtual reality industry and now expanding my knowledge into web development. My focus is backend development, creating APIs, and working with databases. From having a background in management, I understand how producing organised and clean code is important.
+            I have been programming for 2 years, starting in the virtual reality industry and now expanding my knowledge into web development. My focus is Full Stack development, Utilising React, creating APIs, and working with SQL databases. From having a background in management, I understand how producing organised and clean code is important.
           </p>
         </div>
       </div>
