@@ -23,7 +23,8 @@ function About() {
         <div className="about__bio">
           <h1 className="bio__title">ABOUT ME</h1>
           <p>
-            I have been programming for 2 years, starting in the virtual reality industry and now expanding my knowledge into web development. My focus is Full Stack development, Utilising React, creating APIs, and working with SQL databases. From having a background in management, I understand how producing organised and clean code is important.
+          As a self-taught software engineer, I focus on developing meaningful, personal projects involving a large set of technical skills and project management implementation to acquire the experience that I would have had in formal education.
+          During my free time, I like to delve into new technologies. This has led to me working on Virtual Reality projects and moving into the software developer industry for the last 3 years. Becoming a developer means there is always something new to learn and the satisfaction of bug free code drives accomplishment.
           </p>
         </div>
       </div>

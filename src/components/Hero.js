@@ -1,4 +1,4 @@
-import profilePic from '../images/pill.png';
+import profilePic from '../images/PillSelfie.png';
 
 function Hero() {
     return (
